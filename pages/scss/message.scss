@@ -1,0 +1,20 @@
+.popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(72, 255, 0);
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.popup img {
+    width: 15px;
+    height: 15px;
+}

@@ -1,0 +1,91 @@
+.left-detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+    width: 706px;
+    margin-left: 80px;
+    padding-left: 32px;
+    margin-bottom: 188px;
+    margin-top: 81px;
+}
+.left-top-detail-container {
+    display: inline-block;
+    margin-top: 32px;
+    width: 586px;
+}
+.title {
+    margin-top: 5px;
+    padding: 4px 12px;
+    background: #942f70;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #ffffff;
+}
+.detail-pcc {
+    display: flex;
+    flex-direction: row;
+    gap: 11.06px;
+    height: 40px;
+    align-items: center;
+}
+.detail-date-time {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.detail-date-time-item {
+    display: flex;
+    flex-direction: row;
+    gap: 15.2px;
+}
+.detail-date-time-txt {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+}
+.detail-position-capacity-cost {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 586px;
+}
+.detail-capacity-cost {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.detail-capacity {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.detail-cost {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.detail-content {
+    width: 642px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+}
+.detail-body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right-detail-container {
+    margin-right: 82px;
+    margin-top: 81px;
+}

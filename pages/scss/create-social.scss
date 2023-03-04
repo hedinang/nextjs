@@ -1,0 +1,177 @@
+body {
+    margin: 0px !important;
+    background: linear-gradient(138.11deg, #fef452 0%, #942f70 121.92%);
+}
+
+.create-body-container {
+    height: 1423px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-create-head {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 386px;
+}
+.left-create-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 128px;
+    gap: 28px;
+    width: 706px;
+    margin-left: 80px;
+    padding-left: 32px;
+}
+.left-create-title {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+    background: #942f70;
+    width: 299px;
+    text-align: center;
+}
+.create-date-time {
+    display: flex;
+    flex-direction: row;
+    gap: 23.2px;
+}
+.create-date-time-item {
+    display: flex;
+    flex-direction: row;
+    gap: 15.2px;
+    align-items: center;
+}
+.create-date-time-txt {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+
+    display: flex;
+    padding: 0px 3px;
+    width: 180px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 8px;
+    border-color: white;
+}
+.create-position-capacity-cost {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.pcc-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13.04px;
+}
+.position-input {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    color: #333333;
+    width: 454px;
+    border-radius: 4px;
+    border-color: white;
+}
+.capacity-input {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    color: #333333;
+    width: 155px;
+    border-radius: 4px;
+    border-color: white;
+}
+.cost-input {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    color: #333333;
+    width: 155px;
+    border-radius: 4px;
+    border-color: white;
+}
+.description-area {
+    padding: 12px 14px;
+    width: 614px;
+    height: 183px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+.setting-container {
+    width: 642px;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.settings-inside {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.settings {
+    width: 146px;
+    height: 60px;
+    background: #fef452;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 60px;
+    color: #942f70;
+    text-align: center;
+}
+.checkbox-item {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.privacy-list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.optionList {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+.option-item {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+.create-social {
+    width: 642px;
+    height: 48px;
+    background: #fef452;
+    border: 1px solid #fef452;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+.right-create-container {
+    margin-top: 81px;
+    margin-right: 82px;
+    // padding-left: 32px;
+}

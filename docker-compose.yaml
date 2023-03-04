@@ -1,0 +1,15 @@
+version: "3"
+services:
+  nextjs:
+    container_name: nextjs
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3300:3000"
+    # restart: unless-stopped
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+    volumes:
+      - ./fe/node_modules:/usr/app/node_modules
+      - ./fe:/usr/app

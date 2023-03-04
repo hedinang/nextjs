@@ -1,0 +1,28 @@
+.header {
+    display: block;
+    height: 80px;
+}
+.left-icon {
+    float: left;
+    width: 200px;
+    height: 35.56px;
+    margin-top: 22.22px;
+    margin-left: 112px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    float: right;
+    margin-top: 28px;
+    margin-right: 112px;
+}
+.nav-item {
+    text-decoration-line: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
